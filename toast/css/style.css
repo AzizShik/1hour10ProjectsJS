@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgba(0 , 0, 0, 0.7);
+  font-size: 24px;
+}
+
+.btn {
+  text-transform: uppercase;
+  border: 2px solid rgb(255, 255, 255);
+  background: rgb(83, 83, 226);
+  color: #fff;
+  font-size: 24px;
+  text-shadow: rgba(0 , 0, 0, 0.5);
+  cursor: pointer;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-family: Roboto;
+
+  transition: all .3s ease;
+}
+.btn:hover{
+  background: rgb(94, 94, 253);
+  border: 2px solid #000;
+  color: #000;
+}
+.btn:active{
+  transform: scale(.95) translate(4px, 4px);
+}
+
+.container {
+  max-width: 320px;
+  width: 100%;
+  padding: 10px;
+  font-size: 24px;
+  color: #fff;
+  font-family: Roboto;
+
+
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+.toast{
+  font-size: 24px;
+  line-height: 32px;
+  border: 1px solid blue;
+  margin-top: 10px;
+  background: rgb(58, 58, 58);
+  border-radius: 4px;
+  box-shadow: 2px 2px 20px rgba(0 , 0, 0, 0.5);
+
+  animation: animationToast 1s ease forwards;
+}
+
+
+@keyframes animationToast{
+  0%{
+    opacity: 0;
+    padding: 0px 0px;
+  }
+  100%{
+    opacity: 1;
+    padding: 10px 20px;
+  }
+}
+
+
+@media(max-width: 480px){
+  .container {
+    bottom: 0px;
+    right: 0px;
+  }
+  
+  .toast{
+    font-size: 18px;
+  }
+}
