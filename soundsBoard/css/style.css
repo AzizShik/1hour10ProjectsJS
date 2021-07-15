@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  background: rebeccapurple;
+  font-size: 24px;
+  line-height: 1.5;
+
+  color: #fff;
+  font-family: Roboto;
+}
+
+
+.btn{
+  font-size: 24px;
+  font-weight: 700;
+  padding: 18px 32px;
+  text-transform: uppercase;
+  margin: 0 10px;
+  border-radius: 4px;
+  background: #1e1e1e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+
+  transition: all .25s ease;
+}
+
+.btn:hover{
+  background: rgb(238, 237, 237);
+  color: #000;
+}
+
+.btn:active{
+  transform: scale(0.90) translate(2px, 2px);
+}
