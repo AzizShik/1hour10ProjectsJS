@@ -8,3 +8,4 @@ Adaptive Hamburger menu with JavaScript and some animation effects. <br>
 4 BackgroundChanger https://azizshik.github.io/1hour10ProjectsJS/backgroundChanger/index.html <br>
 5 HeartRain https://azizshik.github.io/1hour10ProjectsJS/heartRain/index.html <br>
 6 SoundsBoard https://azizshik.github.io/1hour10ProjectsJS/soundsBoard/index.html <br>
+7 ZoomEffect https://azizshik.github.io/1hour10ProjectsJS/zoom-effect/index.html <br>
